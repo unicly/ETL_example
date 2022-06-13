@@ -56,9 +56,13 @@ The format chosen to represent the graph is shown below.
 
 ```
 
-## How to run the application
+## Install and run the application
 
 ```
+conda create -n pipeline
+conda activate pipeline
+pip install -r requirements.txt
+mkdir logs
 python main.py
 ```
 
@@ -72,8 +76,8 @@ Set up (outside the data pipeline, you can consider it as an annex) a feature to
 
 ### Description
 
-Since this task is outside the pipeline it has been created in a notebook, which can be found [here](notebooks/ad-hoc.ipynb).
+Since this task is outside the pipeline it has been created in a __notebook__, which can be found [here](notebooks/ad-hoc.ipynb).
 
 ## Task 3: SQL
 
-The SQL questions have been answered in the notebook [here](notebooks/sql.ipynb).
+The SQL questions have been answered in the __notebook__ [here](notebooks/sql.ipynb).
